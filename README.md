@@ -14,5 +14,7 @@ http://www.akexorcist.com/2016/12/recycler-view-with-complex-dash-line.html
 
 ![004](https://raw.githubusercontent.com/akexorcist/Android-DashLineRecyclerView/master/image/recycler_view_with_vertical_dash_line-004.jpg)
 
-![005](https://raw.githubusercontent.com/akexorcist/Android-DashLineRecyclerView/master/image/recycler_view_with_vertical_dash_line-005.gif)
+![005](https://raw.githubusercontent.com/akexorcist/Android-DashLineRecyclerView/master/image/recycler_view_with_vertical_dash_line-005.jpg)
+
+![006](https://raw.githubusercontent.com/akexorcist/Android-DashLineRecyclerView/master/image/recycler_view_with_vertical_dash_line-006.gif)
 
