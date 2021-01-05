@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+
+    <com.akexorcist.dashlinerecyclerview.DotLineView
+        android:id="@+id/dlv_header"
+        android:layout_width="5dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        app:dlv_dotColor="@color/orange"
+        app:dlv_dotCount="5"
+        app:dlv_isMirror="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dlv_header"
+        android:background="@drawable/shape_card_content_background"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_size_medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dlv_header"
+        tools:text="Donut brought the word\'s information to your fingertips with the Quick Search Box" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/dlv_header"
+        android:background="@drawable/shape_card_title_background"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_large"
+        app:layout_constraintStart_toEndOf="@id/dlv_header"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Android 1.6 Donut" />
+
+    <TextView
+        android:id="@+id/tv_release_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_content"
+        android:layout_alignEnd="@+id/tv_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/text_size_small"
+        tools:text="September 15, 2009"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_content" />
+
+    <com.akexorcist.dashlinerecyclerview.DotLineView
+        android:id="@+id/dlv_footer"
+        android:layout_width="5dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv_content"
+        android:layout_marginStart="30dp"
+        app:dlv_dotColor="@color/orange"
+        app:dlv_dotCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
